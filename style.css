@@ -290,6 +290,10 @@
         }
 
         .products .box-container .box .image .icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem; /* Reduced space between icons */
             position: absolute;
             top: 50%;
             left: 50%;
@@ -319,7 +323,7 @@
             width: auto;
             height: auto;
             line-height: 3rem;
-            padding:1rem;
+            padding: 0 3rem;
             border-radius: 0.5rem;
         }
 
